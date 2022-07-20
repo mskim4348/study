@@ -1,0 +1,15 @@
+package spring.di.entity;
+
+public class MskimExam implements Exam {
+
+	@Override
+	public int total() {
+		return 0;
+	}
+
+	@Override
+	public int avg() {
+		return 0;
+	}
+
+}

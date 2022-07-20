@@ -1,0 +1,15 @@
+package spring.di.ui;
+
+import spring.di.entity.Exam;
+
+public class InlineExamconsole implements ExamConsole {
+	private Exam exam;
+	
+	public InlineExamconsole() {
+		this.exam=exam;
+	}
+	@Override
+	public void print() {
+	}
+
+}

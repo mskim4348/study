@@ -1,0 +1,13 @@
+package spring.di;
+
+import spring.di.entity.Exam;
+import spring.di.entity.MskimExam;
+import spring.di.ui.ExamConsole;
+
+public class Program {
+	public static void main(String[] args) {
+		Exam exam= new MskimExam();
+		ExamConsole console=new InlineExamconsole(exam);
+		console.print();
+	}
+}

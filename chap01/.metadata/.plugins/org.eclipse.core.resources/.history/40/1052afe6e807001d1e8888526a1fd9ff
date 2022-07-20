@@ -1,0 +1,9 @@
+package spring.di.ui;
+
+public class InlineExamconsole implements ExamConsole {
+
+	@Override
+	public void print() {
+	}
+
+}
